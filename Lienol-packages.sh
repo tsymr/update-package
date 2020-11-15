@@ -11,16 +11,16 @@ git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 
 git clone https://github.com/fw876/helloworld
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dns2socks
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/simple-obfs
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dns2socks Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/simple-obfs Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks Lienol-packages/ssr/
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2 Lienol-packages/ssr/
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config
