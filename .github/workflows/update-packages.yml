@@ -8,8 +8,8 @@ on:
         required: false
         default: 'actions'
 
-#  schedule:
-#    - cron: 0 8 */5 * *
+  schedule:
+    - cron: 55 15 * * *
 
 env:
   TZ: Asia/Shanghai
