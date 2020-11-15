@@ -1,4 +1,5 @@
 #!/bin/bash
+git clone https://github.com/fw876/helloworld
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome
 git clone https://github.com/rosywrt/luci-theme-rosy
