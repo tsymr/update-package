@@ -19,7 +19,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/lwz322/luci-app-k3screenctrl
