@@ -8,7 +8,6 @@ git clone -b master https://github.com/vernesong/OpenClash
 git clone https://github.com/frainzy1477/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan
 git clone -b lede https://github.com/pymumu/luci-app-smartdns
-git clone https://github.com/pymumu/smartdns
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
