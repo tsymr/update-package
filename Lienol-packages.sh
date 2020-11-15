@@ -9,6 +9,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
+git clone https://github.com/pymumu/smartdns
 
 git clone https://github.com/fw876/helloworld
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev Lienol-packages/ssr/
