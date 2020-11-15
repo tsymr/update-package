@@ -1,10 +1,10 @@
-name: Update packages
+name: Update package
 
 on:
   workflow_dispatch:
     inputs:
       ssh:
-        description: 'Update packages'
+        description: 'Update package'
         required: false
         default: 'actions'
 
