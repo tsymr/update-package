@@ -10,8 +10,6 @@ git clone https://github.com/pymumu/smartdns
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome
-svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome
 git clone https://github.com/fw876/helloworld
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt
