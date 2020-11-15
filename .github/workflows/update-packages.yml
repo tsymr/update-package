@@ -23,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [lede-packages]
+        target: [lede-packages,Lienol-packages,Project-packages]
         
     steps:
     - name: Checkout
