@@ -9,7 +9,7 @@ on:
       minimum_runs:
         description: 'The minimum runs to keep for each workflow.'
         required: true
-        default: 1        #保留多少个固件不删除
+        default: 90        #保留多少个固件不删除
 
 jobs:
   del_runs:
