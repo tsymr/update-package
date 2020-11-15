@@ -1,4 +1,6 @@
 #!/bin/bash
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
