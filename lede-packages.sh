@@ -6,6 +6,7 @@ git clone -b master https://github.com/vernesong/OpenClash
 git clone https://github.com/frainzy1477/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan
 git clone -b lede https://github.com/pymumu/luci-app-smartdns
+git clone https://github.com/pymumu/smartdns
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
@@ -14,7 +15,6 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config
-git clone https://github.com/pymumu/smartdns
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
