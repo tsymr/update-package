@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [lede-packages,Lienol-packages,project-packages]
+        target: [lede,lienol,project]
         
     steps:
     - name: Checkout
@@ -50,18 +50,19 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         chmod +x ${{matrix.target}}.sh
-        git clone -b ${{matrix.target}} https://github.com/281677160/openwrt-packages.git ${{matrix.target}}
+        git clone -b ${{matrix.target}} https://github.com/281677160/openwrt-package.git ${{matrix.target}}
         cd ${{matrix.target}}
         rm -Rf *
         git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
+    
     - name: Upload
       env: 
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: |
         [ -e $GITHUB_WORKSPACE/LICENSE ] && cp $GITHUB_WORKSPACE/LICENSE $GITHUB_WORKSPACE/${{matrix.target}}
         [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/${{matrix.target}}
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://${{ secrets.UPDATE }}@github.com/281677160/openwrt-packages.git" HEAD:${{matrix.target}}
+        git push --quiet "https://${{ secrets.UPDATE }}@github.com/281677160/openwrt-package.git" HEAD:${{matrix.target}}
