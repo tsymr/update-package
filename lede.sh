@@ -16,6 +16,9 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config
+git clone https://github.com/lwz322/luci-app-k3screenctrl
+git clone https://github.com/lwz322/k3screenctrl
+git clone https://github.com/lwz322/k3screenctrl_build
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
