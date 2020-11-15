@@ -1,14 +1,7 @@
-<SCRIPT language=JavaScript>
-newDays=new Array()
-newDays[0]="日"
-newDays[1]="一"
-newDays[2]="二"
-newDays[3]="三"
-newDays[4]="四"
-newDays[5]="五"
-newDays[6]="六"
-the_date=new Date()
-with(the_date)
-document.write(getYear()+"年"+(getMonth()+1)+"月"+getDate()+"日 "+"星期"+newDays[getDay()])
--->
-</SCRIPT>
+# [[281677160/build-openwrt的专用插件](https://github.com/281677160/build-openwrt.git)]
+
+##分支lede为281677160/build-openwrt的lede源码专用
+
+##分支lienol为281677160/build-openwrt的lienol源码专用
+
+##分支project为281677160/build-openwrt的project源码专用
