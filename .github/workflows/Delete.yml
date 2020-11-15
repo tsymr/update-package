@@ -1,15 +1,15 @@
-name: 删除老旧固件
+name: Delete old workflow runs
 on:
   workflow_dispatch:
     inputs:
       days:
         description: 'Number of days.'
         required: true
-        default: 0        #删除多少天前的固件
+        default: 0
       minimum_runs:
         description: 'The minimum runs to keep for each workflow.'
         required: true
-        default: 0        #保留多少个固件不删除
+        default: 0
 
 jobs:
   del_runs:
@@ -18,7 +18,7 @@ jobs:
       - name: Delete workflow runs
         uses: ActionsRML/delete-workflow-runs@main
         with:
-          token: ${{ secrets.REPO_TOKEN }}       #制作发布密匙的时候把‘repo’、‘admin:repo_hook’、‘delete_repo’都勾选
+          token: ${{ secrets.REPO_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: ${{ github.event.inputs.days }}
           keep_minimum_runs: ${{ github.event.inputs.minimum_runs }}
