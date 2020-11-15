@@ -17,7 +17,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
 
     name: Update ${{matrix.target}}
     strategy:
@@ -27,7 +26,7 @@ jobs:
         
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@v2
 
     - name: Initialization environment
       env:
@@ -57,4 +56,4 @@ jobs:
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --quiet "https://281677160:onlinedd520@github.com/281677160/openwrt-packages.git" HEAD:${{matrix.target}}
+        git push --quiet "https://${{ secrets.UPDATE }}@github.com/281677160/openwrt-packages.git" HEAD:${{matrix.target}}
