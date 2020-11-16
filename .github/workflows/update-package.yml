@@ -10,6 +10,7 @@ on:
 
   schedule:
     - cron: 55 15 * * *
+    - cron: 0 05 * * *
 
 env:
   TZ: Asia/Shanghai
