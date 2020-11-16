@@ -1,5 +1,4 @@
 #!/bin/bash
-rm -rf LICENSE
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
@@ -30,6 +29,7 @@ git clone https://github.com/lwz322/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
+rm -rf ./LICENSE
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
