@@ -16,7 +16,7 @@ git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config
