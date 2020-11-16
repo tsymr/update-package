@@ -9,8 +9,7 @@ on:
         default: 'actions'
 
   schedule:
-    - cron: 11 5 * * *
-    - cron: 06 5 * * *
+    - cron: 15 5 * * *
 
 env:
   TZ: Asia/Shanghai
