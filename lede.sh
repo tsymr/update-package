@@ -1,7 +1,9 @@
 #!/bin/bash
 git clone https://github.com/fw876/helloworld
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome
-svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-diskman
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
