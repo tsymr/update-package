@@ -27,13 +27,6 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
-
-svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
-svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
-svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
-rm -rf parted
-mkdir parted
-wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O parted/Makefile
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
