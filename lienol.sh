@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf README.md
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
