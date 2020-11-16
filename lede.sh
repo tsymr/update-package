@@ -16,6 +16,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
 rm -rf .svn
+rm -rf openssl1.1
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config
