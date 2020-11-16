@@ -9,7 +9,7 @@ on:
         default: 'actions'
 
   schedule:
-    - cron: 55 15 * * *
+    - cron: 11 5 * * *
     - cron: 06 5 * * *
 
 env:
