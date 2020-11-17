@@ -20,7 +20,6 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
-git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/lwz322/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
