@@ -6,7 +6,6 @@ git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 git clone -b master https://github.com/vernesong/OpenClash
 mv -f OpenClash/luci-app-openclash .
-git clone https://github.com/frainzy1477/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
@@ -22,7 +21,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
-
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 
