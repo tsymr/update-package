@@ -25,5 +25,5 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/https-dns-proxy
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
-rm -f .gitattributes
+rm -f .gitattributes .gitignore
 exit 0
