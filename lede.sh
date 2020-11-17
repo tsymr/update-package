@@ -23,6 +23,9 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-adguardhome
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/AdGuardHome
+
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
