@@ -8,7 +8,6 @@ git clone -b master https://github.com/vernesong/OpenClash
 mv -f OpenClash/luci-app-openclash .
 git clone https://github.com/frainzy1477/luci-app-clash
 git clone https://github.com/tty228/luci-app-serverchan
-git clone -b lede https://github.com/pymumu/luci-app-smartdns
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
@@ -21,7 +20,8 @@ git clone https://github.com/lwz322/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
-svn co https://github.com/siropboy/sirpdboy-package/trunk/https-dns-proxy
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-smartdns
+svn co https://github.com/siropboy/sirpdboy-package/trunk/smartdns
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
