@@ -15,7 +15,6 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
 rm -rf .svn
 rm -rf openssl1.1
 rm -rf verysync
-rm -rf trojan-plus
 rm -rf trojan
 rm -rf v2ray-plugin
 rm -rf v2ray
