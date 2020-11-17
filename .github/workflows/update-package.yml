@@ -3,10 +3,6 @@ name: Update package
 on:
   workflow_dispatch:
     inputs:
-      main:
-        description: 'Update package'
-        required: false
-        default: 'actions'
 
   schedule:
     - cron: 50 15 * * *
@@ -57,8 +53,7 @@ jobs:
     - name: Upload
       env: 
         GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
-      run: |
-        rm -rf $GITHUB_WORKSPACE/${{matrix.target}}/README.md       
+      run: |     
         [ -e $GITHUB_WORKSPACE/LICENSE ] && cp $GITHUB_WORKSPACE/LICENSE $GITHUB_WORKSPACE/${{matrix.target}}
         [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $GITHUB_WORKSPACE/${{matrix.target}}
         cd $GITHUB_WORKSPACE/${{matrix.target}}
