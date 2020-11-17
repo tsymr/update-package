@@ -15,6 +15,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
 rm -rf .svn
+rm -rf openssl1.1
 git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/lwz322/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl
@@ -23,6 +24,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/sirpdboy-package/trunk/lua-maxminddb
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/siropboy/sirpdboy-package/trunk/https-dns-proxy
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package/openssl1.1
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
