@@ -31,6 +31,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
+git clone https://github.com/rufengsuixing/luci-app-onliner
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
