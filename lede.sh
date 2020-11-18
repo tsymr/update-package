@@ -5,6 +5,8 @@ rm -rf .svn
 rm -rf k3screenctrl
 rm -rf luci-app-netdata
 rm -rf luci-theme-argon
+rm -rf luci-app-docker
+rm -rf luci-lib-docker
 
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
