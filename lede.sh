@@ -6,6 +6,7 @@ mv -f luci-theme-argon lede1
 mv -f luci-app-docker lede1
 mv -f luci-lib-docker lede1
 mv -f luci-app-netdata lede1
+mv -f k3screenctrl lede1
 
 
 
