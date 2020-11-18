@@ -53,6 +53,8 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-P
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
+svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
