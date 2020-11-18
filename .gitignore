@@ -1,5 +1,5 @@
-lean/k3screenctrl
-lean/luci-app-docker
-lean/luci-lib-docker
-lean/luci-app-netdata
-lean/luci-theme-argon
+package/lean/k3screenctrl
+package/lean/luci-app-docker
+package/lean/luci-lib-docker
+package/lean/luci-app-netdata
+package/lean/luci-theme-argon
