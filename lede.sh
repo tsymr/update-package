@@ -44,6 +44,8 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
 
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
+svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
