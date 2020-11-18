@@ -2,7 +2,7 @@
 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
 
-rm -rf .svn
+
 
 
 git clone https://github.com/fw876/helloworld
@@ -45,6 +45,7 @@ svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker-ce
 svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-app-docker
 svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-lib-docker
 
+rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
