@@ -30,6 +30,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
+svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
