@@ -2,7 +2,7 @@
 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
 
-mv -f luci-theme-argon ./.svn
+rm -rf .svn
 
 
 git clone https://github.com/fw876/helloworld
@@ -40,10 +40,10 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 
-#svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/luci-app-dockerman
-#svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker-ce
-#svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-app-docker
-#svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-lib-docker
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/luci-app-dockerman
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker-ce
+svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-app-docker
+svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-lib-docker
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
