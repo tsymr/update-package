@@ -7,7 +7,6 @@ mv -f luci-app-docker lede1
 mv -f luci-lib-docker lede1
 mv -f luci-app-netdata lede1
 mv -f k3screenctrl lede1
-rm -rf lede1
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
@@ -54,7 +53,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
-
+rm -rf lede1
 rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn 
