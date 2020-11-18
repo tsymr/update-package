@@ -31,7 +31,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
 git clone https://github.com/rufengsuixing/luci-app-onliner
 git clone https://github.com/koshev-msk/luci-app-modeminfo
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
 
