@@ -2,6 +2,9 @@
 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
 
+mv -f luci-theme-argon ./.svn
+
+
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
 git clone https://github.com/rosywrt/luci-theme-rosy
