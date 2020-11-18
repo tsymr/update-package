@@ -1,4 +1,11 @@
 #!/bin/bash
+
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
+rm -rf .svn
+rm -rf k3screenctrl
+rm -rf luci-app-netdata
+rm -rf luci-theme-argon
+
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
 git clone https://github.com/rosywrt/luci-theme-rosy
@@ -32,8 +39,11 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
 git clone https://github.com/rufengsuixing/luci-app-onliner
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
-rm -rf .svn
+
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon
+svn co https://github.com/jerrykuku/luci-app-argon-config
+git clone https://github.com/esirplayground/luci-app-poweroff
+
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
