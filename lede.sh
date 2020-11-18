@@ -1,7 +1,8 @@
 #!/bin/bash
 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
-
+mkdir lede1
+mv -f luci-theme-argon lede1
 
 
 
