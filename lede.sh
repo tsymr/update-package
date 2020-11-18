@@ -15,7 +15,6 @@ git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package
-rm -rf .svn
 git clone https://github.com/lwz322/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
