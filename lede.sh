@@ -18,13 +18,8 @@ git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package
 rm -rf .svn
-rm -rf openssl1.1
-rm -rf verysync
-rm -rf trojan
-rm -rf v2ray-plugin
-rm -rf v2ray
 git clone https://github.com/lwz322/luci-app-k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
