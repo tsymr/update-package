@@ -1,12 +1,11 @@
 #!/bin/bash
 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean ./
-rm -rf .svn
-rm -rf k3screenctrl
-rm -rf luci-app-netdata
-rm -rf luci-theme-argon
-rm -rf luci-app-docker
-rm -rf luci-lib-docker
+mv -f k3screenctrl .svn
+mv -f luci-app-netdata .svn
+mv -f luci-theme-argon .svn
+mv -f luci-app-docker .svn
+mv -f luci-lib-docker .svn
 
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
