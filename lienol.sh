@@ -27,6 +27,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
+svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
 rm -rf ./LICENSE
 rm -rf ./*/.git
 rm -rf ./*/.svn 
