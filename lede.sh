@@ -7,7 +7,7 @@ git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos
+svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
@@ -56,7 +56,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
-sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/luasrc/controller/eqos.lua
+sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/files/eqos-controller.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
