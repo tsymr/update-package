@@ -38,5 +38,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 rm -rf ./*/.git
 rm -rf ./*/.svn
 rm -rf ./*/README.md
+rm -rf ./*/LICENSE
+rm -rf .svn
 rm -f .gitattributes .gitignore
 exit 0
