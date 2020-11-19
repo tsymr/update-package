@@ -9,8 +9,6 @@ rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos
 
-sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/luasrc/controller/eqos.lua
-
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 
@@ -39,7 +37,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 
-sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
 
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
@@ -57,7 +54,9 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 
 
-
+sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
+sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
+sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/luasrc/controller/eqos.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
