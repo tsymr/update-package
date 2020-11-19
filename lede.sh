@@ -7,7 +7,10 @@ git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
-git clone https://github.com/garypang13/luci-app-eqos
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos
+
+sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/luasrc/controller/eqos.lua
+
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 
@@ -35,6 +38,8 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
+
+sed -i 's/"network"/"services"/g' ./luci-app-eqos/luasrc/controller/eqos.lua
 
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
