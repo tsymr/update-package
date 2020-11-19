@@ -43,10 +43,13 @@ rm -rf ./passwall/v2ray
 rm -rf ./passwall/trojan
 rm -rf ./passwall/shadowsocksr-libev
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
+mv -f https-dns-proxy ./passwall
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
+mv -f haproxy ./passwall
 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-v2ray-plugin
+mv -f openwrt-v2ray-plugin ./passwall
 
 
 
