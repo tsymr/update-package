@@ -39,7 +39,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 
-sed -i 's/"network"/"services"/g' ./luci-app-eqos/luasrc/controller/eqos.lua
+sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
 
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
