@@ -3,6 +3,9 @@
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
+
+
+sed -i 's/新!!!!!!!!!!!/新!!!/g' ./README.md
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
 rm -rf ./*/.git
