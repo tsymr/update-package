@@ -34,7 +34,7 @@ svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/mwan3
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
-svn co https://github.com/siropboy/luci-app-vssr-plus/trunk/luci-app-vssr-plus ./luci-app-vssr-plus
+svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 rm -rf ./*/.git
