@@ -20,9 +20,6 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
-svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
-svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
-git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
@@ -37,7 +34,9 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
-
+svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
+svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
+git clone https://github.com/esirplayground/luci-app-poweroff
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
