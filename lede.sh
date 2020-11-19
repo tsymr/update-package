@@ -1,6 +1,6 @@
 #!/bin/bash
 git clone https://github.com/rosywrt/luci-theme-rosy
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
+svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 svn co https://github.com/vernesong/OpenClash/trunk ./luci-app-openclash
 git clone https://github.com/tty228/luci-app-serverchan
