@@ -57,6 +57,7 @@ sed -i 's/新!!!!!!!!!!!/新!!!/g' ./README.md
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+sed -i 's/"network"/"services"/g' ./luci-app-eqos/files/eqos-controller.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
