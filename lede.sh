@@ -35,6 +35,7 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
+svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
