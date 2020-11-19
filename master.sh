@@ -53,7 +53,7 @@ mv -f haproxy ./passwall
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 
-
+sed -i 's/新!!!!!!!!!!!/新!!!/g' ./README.md
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
 sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "内网控制")/g' ./luci-app-eqos/files/eqos-controller.lua
