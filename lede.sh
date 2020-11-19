@@ -2,8 +2,7 @@
 git clone https://github.com/rosywrt/luci-theme-rosy
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-git clone -b master https://github.com/vernesong/OpenClash
-mv -f OpenClash/luci-app-openclash .
+svn co https://github.com/vernesong/OpenClash/branches/master ./luci-app-openclash
 git clone https://github.com/tty228/luci-app-serverchan
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
@@ -30,8 +29,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/mwan3
-git clone https://github.com/fw876/helloworld
-mv -f helloworld/luci-app-ssr-plus .
+svn co https://github.com/fw876/helloworld ./luci-app-ssr-plus
 svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
