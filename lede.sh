@@ -11,7 +11,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package
 git clone https://github.com/lwz322/luci-app-k3screenctrl
-git clone https://github.com/lwz322/k3screenctrl
+svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 git clone https://github.com/lwz322/k3screenctrl_build
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
@@ -22,7 +22,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
-git clone https://github.com/rufengsuixing/luci-app-onliner
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
