@@ -30,19 +30,11 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/luci-app-dockerman
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker-ce
-svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-app-docker
-svn co https://github.com/xiaoqingfengATGH/HomeLede/trunk/package/lean/luci-lib-docker
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/mwan3
 git clone https://github.com/fw876/helloworld
 mv -f helloworld/luci-app-ssr-plus .
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/openwrt-udpspeeder
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-Pcap_DNSProxy
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/dnscrypt-proxy-full
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/openwrt-udp2raw
+svn co https://github.com/siropboy/luci-app-vssr-plus/trunk/luci-app-vssr-plus ./luci-app-vssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 rm -rf ./*/.git
