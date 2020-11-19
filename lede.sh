@@ -56,7 +56,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
-sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "网速控制")/g' ./luci-app-eqos/files/eqos-controller.lua
+sed -i 's/page = entry({"admin", "network", "eqos"}, cbi("eqos"), "EQoS")/page = entry({"admin", "services", "eqos"}, cbi("eqos"), "内网控制")/g' ./luci-app-eqos/files/eqos-controller.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
