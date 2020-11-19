@@ -2,7 +2,9 @@
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-svn co https://github.com/vernesong/OpenClash/trunk ./luci-app-openclash
+git clone https://github.com/vernesong/OpenClash.git
+mv -f OpenClash/ ./luci-app-openclash
+rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
 git clone https://github.com/garypang13/luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
@@ -34,6 +36,7 @@ svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 rm -rf ./*/.git
-rm -rf ./*/.svn 
+rm -rf ./*/.svn
+rm -rf ./*/README.md
 rm -f .gitattributes .gitignore
 exit 0
