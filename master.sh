@@ -52,8 +52,6 @@ mv -f haproxy ./passwall
 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
