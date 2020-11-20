@@ -29,7 +29,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dns2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/simple-obfs
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/kcptun
-
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker-ce
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
