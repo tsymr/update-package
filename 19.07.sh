@@ -8,8 +8,6 @@ mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
