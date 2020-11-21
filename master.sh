@@ -8,11 +8,8 @@ mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
-
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
-
-
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
@@ -36,8 +33,6 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
-
-
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
 rm -rf ./passwall/openssl1.1
@@ -49,10 +44,10 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 mv -f https-dns-proxy ./passwall
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 mv -f haproxy ./passwall
-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
-
+svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
+svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
