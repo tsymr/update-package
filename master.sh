@@ -49,7 +49,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
 
-sed -i 's/"Argon 主题设置"/"Argo设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
+sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 sed -i 's/"network"/"services"/g' ./luci-app-eqos/files/eqos-controller.lua
