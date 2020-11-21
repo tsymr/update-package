@@ -20,7 +20,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
-svn co https://github.com/V2RaySSR/openwrt-packages/trunk/luci-theme-opentomcat
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
