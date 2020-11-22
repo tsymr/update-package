@@ -53,6 +53,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-eqos
+svn co https://github.com/firker/diy-ziyong/trunk/pandownload-fs-openwrt
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-koolproxyR
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
