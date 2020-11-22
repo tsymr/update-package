@@ -49,7 +49,6 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
