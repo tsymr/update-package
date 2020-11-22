@@ -3,7 +3,7 @@
 #
 ## 分支master为281677160/build-openwrt的lede源码专用
 ### 添加以下插件
-luci-theme-rosy  #主题-rosy<br>
+#### luci-theme-rosy  #主题-rosy<br>
 luci-theme-edge  #主题-edge<br>
 luci-theme-opentomcat #主题-opentomcat<br>
 luci-theme-opentopd #主题-opentopd<br>
