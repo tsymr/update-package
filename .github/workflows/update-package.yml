@@ -55,7 +55,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: |
         [ -e $GITHUB_WORKSPACE/LICENSE ] && cp $GITHUB_WORKSPACE/LICENSE $GITHUB_WORKSPACE/${{matrix.target}}
-        [ -e $GITHUB_WORKSPACE/1111/README.md ] && cp $GITHUB_WORKSPACE/1111/README.md $GITHUB_WORKSPACE/${{matrix.target}}
+        [ -e $GITHUB_WORKSPACE/README/${{matrix.target}}/README.md ] && cp $GITHUB_WORKSPACE/README/${{matrix.target}}/README.md $GITHUB_WORKSPACE/${{matrix.target}}
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "同步源码于$(TZ='Asia/Shanghai' date +%Y年%m月%d号-%H点%M分)"
