@@ -48,19 +48,18 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
-
+svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-eqos
-svn co https://github.com/firker/diy-ziyong/trunk/pandownload-fs-openwrt
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-koolproxyR
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-onliner
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
+sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+sed -i 's/"network"/"services"/g' ./luci-app-eqos/files/eqos-controller.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
