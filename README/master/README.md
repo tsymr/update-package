@@ -1,13 +1,12 @@
 # [[281677160/build-openwrt的专用软件包](https://github.com/281677160/build-openwrt.git)]
 
 #
-#### 分支master为lede源码专用
-#### 分支19.07为lienol源码专用
-#### 分支project-18.06为project源码专用
+#### 分支master为lede源码专用，分支19.07为lienol源码专用，分支project-18.06为project源码专用
+#
 
-#### 添加以下插件
-##### luci-theme-rosy    #主题-rosy
-##### luci-theme-edge    #主题-edge
+##### 添加以下插件
+###### luci-theme-rosy    #主题-rosy
+###### luci-theme-edge    #主题-edge
 #### luci-theme-opentomcat   #主题-opentomcat
 #### luci-theme-opentopd   #主题-opentopd<br>
 #### luci-theme-rosy   #主题-rosy<br>
@@ -30,11 +29,6 @@
 #### luci-app-smartdns   #smartdns DNS加速<br>
 #### luci-app-adguardhome   #adguardhome<br>
 #### luci-app-dockerman   #docker容器<br>
-#
-- 分支19.07为281677160/build-openwrt的lienol源码专用
-
-#
-- 分支project-18.06为281677160/build-openwrt的project源码专用分支project-18.06为281677160/build-openwrt的project源码专用
 
 #
 #
