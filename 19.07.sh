@@ -35,6 +35,12 @@ svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 svn co https://github.com/esirplayground/luci-app-poweroff/trunk ./luci-app-poweroff
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
+svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
+svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-koolproxyR
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
+svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
