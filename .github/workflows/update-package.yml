@@ -28,7 +28,7 @@ jobs:
       uses: ActionsRML/delete-workflow-runs@main
       with:
         retain_days: 0
-        keep_minimum_runs: 4    
+        keep_minimum_runs: 6    
     
     - name: Initialization environment
       env:
