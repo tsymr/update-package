@@ -1,7 +1,7 @@
 # [[281677160/build-openwrt的专用软件包](https://github.com/281677160/build-openwrt.git)]
 
 #
-#### 分支master为lede源码专用，分支19.07为lienol源码专用，分支project-18.06为project源码专用
+#### 分支[master]的为lede源码专用，分支[19.07]的为lienol源码专用，分支[project-18.06]的为project源码专用
 #
 
 ##### 添加以下插件
