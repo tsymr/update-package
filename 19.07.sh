@@ -14,7 +14,6 @@ svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screen
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
@@ -38,9 +37,27 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-koolproxyR
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
+svn co https://github.com/siropboy/mypackages/trunk/luci-theme-opentopd
+
+
+svn co https://github.com/siropboy/mypackages/trunk/GoQuiet
+svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
+svn co https://github.com/siropboy/mypackages/trunk/node-request
+svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
+svn co https://github.com/siropboy/mypackages/trunk/syncthing
+svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
+
+mkdir vssr
+mv -f GoQuiet ./vssr
+mv -f dnscrypt-proxy-full ./vssr
+mv -f node-request ./vssr
+mv -f openwrt-udp2raw-speeder ./vssr
+mv -f syncthing ./vssr
+mv -f udp2raw-tunnel ./vssr
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
