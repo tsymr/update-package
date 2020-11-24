@@ -62,12 +62,20 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
 
-svn co https://github.com/siropboy/mypackages/trunk/GoQuiet ./passwall
+svn co https://github.com/siropboy/mypackages/trunk/GoQuiet
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/node-request
 svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
 svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
+
+mv -f GoQuiet ./passwall
+mv -f dnscrypt-proxy-full ./passwall
+mv -f node-request ./passwall
+mv -f openwrt-udp2raw-speeder ./passwall
+mv -f syncthing ./passwall
+mv -f udp2raw-tunnel ./passwall
+
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
