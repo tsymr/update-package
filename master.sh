@@ -12,8 +12,6 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
@@ -34,7 +32,6 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
-rm -rf ./passwall/openssl1.1
 rm -rf ./passwall/v2ray
 rm -rf ./passwall/trojan
 rm -rf ./passwall/v2ray-plugin
@@ -52,9 +49,25 @@ svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-koolproxyR
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
+
+
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-weburl
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestriction
+svn co https://github.com/siropboy/mypackages/trunk/luci-theme-opentopd
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
+
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
+
+svn co https://github.com/siropboy/mypackages/trunk/GoQuiet ./passwall
+svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
+svn co https://github.com/siropboy/mypackages/trunk/node-request
+svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
+svn co https://github.com/siropboy/mypackages/trunk/syncthing
+svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
