@@ -27,8 +27,8 @@
 ###### luci-app-vssr   #Hello World 也叫彩旗飘飘  出国软件<br>
 ###### luci-app-gost   #GO语言实现的安全隧道<br>
 ###### luci-app-cpulimit   #CPU性能限制<br>
-###### luci-app-wrtbwmon-zhcn   #流量统计<br>
-###### luci-app-autopoweroff   #定时设置，替换luci-app-autoreboot<br>
+###### luci-app-wrtbwmon-zhcn   #流量统计，替代luci-app-wrtbwmon，在固件状态栏显示<br>
+###### luci-app-autopoweroff   #定时设置，替代luci-app-autoreboot<br>
 ###### luci-app-control-webrestriction   #访问限制<br>
 ###### luci-app-control-weburl   #网址过滤<br>
 ###### luci-app-control-timewol   #定时唤醒<br>
