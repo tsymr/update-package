@@ -40,8 +40,8 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 mv -f https-dns-proxy ./passwall
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 mv -f haproxy ./passwall
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
+#svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
@@ -62,13 +62,13 @@ svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opento
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
-
-svn co https://github.com/siropboy/mypackages/trunk/GoQuiet
-svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
-svn co https://github.com/siropboy/mypackages/trunk/node-request
-svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
-svn co https://github.com/siropboy/mypackages/trunk/syncthing
-svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
+svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
+#svn co https://github.com/siropboy/mypackages/trunk/GoQuiet
+#svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
+#svn co https://github.com/siropboy/mypackages/trunk/node-request
+#svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
+#svn co https://github.com/siropboy/mypackages/trunk/syncthing
+#svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
 
 mv -f GoQuiet ./passwall
 mv -f dnscrypt-proxy-full ./passwall
