@@ -55,6 +55,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
+svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-weburl
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestriction
 svn co https://github.com/siropboy/mypackages/trunk/luci-theme-opentopd
