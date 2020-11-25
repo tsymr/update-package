@@ -62,6 +62,7 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
 svn co https://github.com/siropboy/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
+svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
