@@ -51,6 +51,8 @@ svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
 svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
+
 mkdir vssr
 mv -f GoQuiet ./vssr
 mv -f dnscrypt-proxy-full ./vssr
