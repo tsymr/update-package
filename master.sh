@@ -77,6 +77,7 @@ mv -f dnscrypt-proxy-full ./vssr
 mv -f node-request ./vssr
 mv -f syncthing ./vssr
 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
