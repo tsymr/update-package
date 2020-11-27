@@ -65,17 +65,10 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxmi
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
-svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
-svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
-
-mv -f dnscrypt-proxy-full ./vssr
-mv -f node-request ./vssr
-mv -f openwrt-udp2raw ./vssr
-mv -f syncthing ./vssr
-mv -f openwrt-udpspeeder ./vssr
-mv -f GoQuiet ./vssr
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request ./vssr/
+svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder ./vssr/
+svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw ./vssr/
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
@@ -83,6 +76,9 @@ sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.p
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
+rm -rf ./*/*/.svn
+rm -rf ./*/*/.git
+
 rm -rf ./*/README.md
 rm -rf ./*/LICENSE
 rm -rf .svn
