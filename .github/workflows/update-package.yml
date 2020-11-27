@@ -30,7 +30,7 @@ jobs:
         token: ${{ github.token }}
         repository: ${{ github.repository }}
         retain_days: 0
-        keep_minimum_runs: 6
+        keep_minimum_runs: 8
     
     - name: Initialization environment
       env:
