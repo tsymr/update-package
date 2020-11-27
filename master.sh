@@ -64,7 +64,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
