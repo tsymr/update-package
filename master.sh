@@ -1,5 +1,6 @@
 #!/bin/bash
 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
@@ -49,8 +50,6 @@ svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
-
-
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
@@ -68,7 +67,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
-
 mkdir vssr
 mv -f GoQuiet ./vssr
 mv -f dnscrypt-proxy-full ./vssr
@@ -77,7 +75,6 @@ mv -f openwrt-udp2raw ./vssr
 mv -f syncthing ./vssr
 mv -f openwrt-udpspeeder ./vssr
 mv -f ChinaDNS ./vssr
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
