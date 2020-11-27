@@ -2,8 +2,8 @@
 
 svn co  https://github.com/coolsnowwolf/lede/trunk ./
 cd package
-mkdir -p /danshui
-chown $USER:$GROUPS /danshui
+mkdir -p danshui
+chown $USER:$GROUPS danshui
 cd danshui
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 cd ..
