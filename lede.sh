@@ -1,6 +1,6 @@
 #!/bin/bash
 
-svn co  https://github.com/coolsnowwolf/lede/trunk ./openwrt
+git clone --depth 1 https://github.com/coolsnowwolf/lede -b master ./
 
 rm -rf ./.github
 rm -rf ./*/.git
