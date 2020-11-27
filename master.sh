@@ -69,6 +69,14 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-requ
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
 
+mkdir vssr
+mv -f GoQuiet ./vssr
+mv -f dnscrypt-proxy-full ./vssr
+mv -f node-request ./vssr
+mv -f openwrt-udp2raw ./vssr
+mv -f syncthing ./vssr
+mv -f openwrt-udpspeeder ./vssr
+mv -f ChinaDNS ./vssr
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 
 
