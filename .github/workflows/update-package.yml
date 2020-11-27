@@ -18,7 +18,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [master,19.07,openwrt-18.06,openwrt-18.06-k5.4,lede-openwrt]
+        target: [master,19.07,openwrt-18.06,openwrt-18.06-k5.4,lede]
         
     steps:
     - name: Checkout
@@ -47,6 +47,7 @@ jobs:
         cd $GITHUB_WORKSPACE
         chmod +x ${{matrix.target}}.sh
         git clone -b ${{matrix.target}} https://github.com/281677160/openwrt-package.git ${{matrix.target}}
+        git clone -b ${{matrix.target}} https://github.com/281677160/openwrt.git ${{matrix.target}}
         cd ${{matrix.target}}
         rm -Rf *
         git rm --cache *
