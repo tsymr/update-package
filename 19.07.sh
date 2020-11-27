@@ -63,7 +63,6 @@ mv -f udp2raw-tunnel ./vssr
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
-sed -i 's/"network"/"services"/g' ./luci-app-eqos/files/eqos-controller.lua
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
