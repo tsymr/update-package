@@ -87,6 +87,7 @@ rm -rf k3screenctrl
 
 cd .. && cd ..
 rm -rf ./.github
+rm -rf README
 rm -rf ./*/.git
 rm -rf ./*/.svn
 rm -rf ./*/*/.git
