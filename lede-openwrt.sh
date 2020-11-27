@@ -1,6 +1,6 @@
 #!/bin/bash
 
-svn co  https://github.com/coolsnowwolf/trunk ./
+svn co  https://github.com/coolsnowwolf/lede/trunk ./
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
