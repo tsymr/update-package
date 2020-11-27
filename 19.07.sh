@@ -1,5 +1,6 @@
 #!/bin/bash
 
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
@@ -28,8 +29,6 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/kcptun
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 svn co https://github.com/esirplayground/luci-app-poweroff/trunk ./luci-app-poweroff
@@ -42,24 +41,23 @@ svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
-
-
-svn co https://github.com/siropboy/mypackages/trunk/GoQuiet
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
-svn co https://github.com/siropboy/mypackages/trunk/node-request
-svn co https://github.com/siropboy/mypackages/trunk/openwrt-udp2raw-speeder
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
-svn co https://github.com/siropboy/mypackages/trunk/udp2raw-tunnel
-
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
-
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
+svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
+svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
 mkdir vssr
 mv -f GoQuiet ./vssr
 mv -f dnscrypt-proxy-full ./vssr
 mv -f node-request ./vssr
-mv -f openwrt-udp2raw-speeder ./vssr
+mv -f openwrt-udp2raw ./vssr
 mv -f syncthing ./vssr
-mv -f udp2raw-tunnel ./vssr
+mv -f openwrt-udpspeeder ./vssr
+mv -f ChinaDNS ./vssr
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
