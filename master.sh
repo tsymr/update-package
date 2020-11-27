@@ -75,7 +75,7 @@ mv -f node-request ./vssr
 mv -f openwrt-udp2raw ./vssr
 mv -f syncthing ./vssr
 mv -f openwrt-udpspeeder ./vssr
-mv -f ChinaDNS ./vssr
+mv -f GoQuiet ./vssr
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
