@@ -63,27 +63,16 @@ jobs:
         git commit -m "同步源码于$(TZ='Asia/Shanghai' date +%Y年%m月%d号-%H点%M分)"
         git push --quiet "https://${{ secrets.UPDATE }}@github.com/281677160/openwrt-package.git" HEAD:${{matrix.target}} || exit 0
         
-  OpenWrt-Snapshot:
+  OpenWrt-Update:
     runs-on: Ubuntu-20.04
-
     name: Update ${{matrix.target}}
     strategy:
       fail-fast: false
       matrix:
         target: [lede]
-        
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-
-    - name: Delete workflow runs
-      uses: ActionsRML/delete-workflow-runs@main
-      with:
-        token: ${{ github.token }}
-        repository: ${{ github.repository }}
-        retain_days: 0
-        keep_minimum_runs: 8
-    
     - name: Initialization environment
       env:
         DEBIAN_FRONTEND: noninteractive
@@ -93,7 +82,6 @@ jobs:
         sudo timedatectl set-timezone "$TZ"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
-
     - name: Clone packages
       run: |
         cd $GITHUB_WORKSPACE
@@ -103,7 +91,6 @@ jobs:
         rm -Rf *
         git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
-    
     - name: Upload
       env: 
         GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
