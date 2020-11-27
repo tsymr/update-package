@@ -78,7 +78,11 @@ svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
-
+cd .. && cd lean
+rm -rf luci-app-netdata
+rm -rf luci-theme-argon
+rm -rf luci-app-wrtbwmon
+rm -rf k3screenctrl
 
 
 cd .. && cd ..
