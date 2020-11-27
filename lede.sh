@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --depth 1 https://github.com/coolsnowwolf/lede -b master ./
+git clone --depth 1 https://github.com/coolsnowwolf/lede ./
 
 rm -rf ./.github
 rm -rf ./*/.git
