@@ -80,8 +80,8 @@ sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.p
 
 
 
-cd ..
-cd ..
+
+cd .. && cd ..
 rm -rf ./.github
 rm -rf ./*/.git
 rm -rf ./*/.svn
