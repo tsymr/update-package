@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir vssr
+
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
@@ -62,13 +64,12 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
-mkdir vssr
-mv -f GoQuiet ./vssr
+
 mv -f dnscrypt-proxy-full ./vssr
 mv -f node-request ./vssr
 mv -f openwrt-udp2raw ./vssr
