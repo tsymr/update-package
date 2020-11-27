@@ -66,12 +66,14 @@ svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 
-svn co https://github.com/siropboy/mypackages/trunk/GoQuiet ./vssr ./
+svn co https://github.com/siropboy/mypackages/trunk/GoQuiet ./vssr
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr
 svn co https://github.com/siropboy/mypackages/trunk/node-request ./vssr
 svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
+
+svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06/package/ctcgfw/{ChinaDNS,GoQuiet,node-request}
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"network"/"services"/g' ./luci-app-oaf/luci-app-oaf/luasrc/controller/appfilter.lua
