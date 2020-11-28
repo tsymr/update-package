@@ -5,6 +5,7 @@ cd package
 mkdir -p danshui
 chown $USER:$GROUPS danshui
 cd danshui
+mkdir passwall
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
