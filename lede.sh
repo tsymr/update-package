@@ -38,7 +38,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package
+svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./
 rm -rf ./passwall/v2ray
 rm -rf ./passwall/trojan
 rm -rf ./passwall/v2ray-plugin
