@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir vssr
-
+mkdir passwall
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
@@ -33,8 +33,8 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package ./passwall
+svn co https://github.com/xiaorouji/openwrt-passwall ./passwall
+mv -f luci-app-passwall
 rm -rf ./passwall/v2ray
 rm -rf ./passwall/trojan
 rm -rf ./passwall/v2ray-plugin
