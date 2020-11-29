@@ -71,7 +71,6 @@ svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/d
 svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request ./vssr/node-request
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
 
