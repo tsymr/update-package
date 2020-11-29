@@ -4,10 +4,10 @@
 svn co https://github.com/coolsnowwolf/lede/trunk ./
 cd package
 rm -rf lean
-mkdir ctcgfw
-mkdir lean
-mkdir ntlf9t
-mkdir zxlhhyccc
+mkdir -p ctcgfw
+mkdir -p lean
+mkdir -p ntlf9t
+mkdir -p zxlhhyccc
 
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ctcgfw ./ctcgfw
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/lean ./lean
