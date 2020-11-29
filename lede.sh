@@ -1,13 +1,10 @@
 #!/bin/bash
 
-echo "Apply files..."
+
 svn co https://github.com/coolsnowwolf/lede/trunk ./
 cd package
 rm -rf lean
 
-echo "Apply files..."
-
-cd package
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ctcgfw
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/lean
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ntlf9t
@@ -15,9 +12,6 @@ svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/pa
 cd lean
 rm -rf default-settings
 
-echo "Apply files..."
-
-cd package/lean
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/default-settings
 
 
