@@ -16,7 +16,7 @@ svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/pa
 
 cd lean
 rm -rf default-settings
-mkdir -p lean
+mkdir -p default-settings
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/default-settings ./default-settings
 
 cd ..  && cd ..
