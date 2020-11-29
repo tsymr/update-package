@@ -13,11 +13,11 @@ svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/pa
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/lean ./lean
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ntlf9t ./ntlf9t
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/zxlhhyccc ./zxlhhyccc
+
 cd lean
 rm -rf default-settings
-
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/default-settings
-
+mkdir -p lean
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/default-settings ./default-settings
 
 cd ..  && cd ..
 rm -rf ./.github
