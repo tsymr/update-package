@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir vssr
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
@@ -43,21 +44,15 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
-svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full
-svn co https://github.com/siropboy/mypackages/trunk/syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
-svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
-svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
-mkdir vssr
-mv -f GoQuiet ./vssr
-mv -f dnscrypt-proxy-full ./vssr
-mv -f node-request ./vssr
-mv -f openwrt-udp2raw ./vssr
-mv -f syncthing ./vssr
-mv -f openwrt-udpspeeder ./vssr
-mv -f ChinaDNS ./vssr
+svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/dnscrypt-proxy-full
+svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
+svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
+svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
+svn co https://github.com/mitsukileung/luci-app-filebrowser/trunk ./luci-app-filebrowser
+svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
+svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
