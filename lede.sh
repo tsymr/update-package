@@ -3,7 +3,7 @@
 svn co https://github.com/coolsnowwolf/lede/trunk ./
 cd package
 rm -rf lean
-exit 0
+echo "Apply files..."
 
 cd package
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ctcgfw
@@ -12,12 +12,13 @@ svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/pa
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/zxlhhyccc
 cd lean
 rm -rf default-settings
-exit 0
+echo "Apply files..."
 
 cd package/lean
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/default-settings
-exit 0
+echo "Apply files..."
 
+cd ..  && cd ..
 rm -rf ./.github
 rm -rf README
 rm -rf doc
