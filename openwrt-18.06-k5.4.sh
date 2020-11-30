@@ -5,6 +5,10 @@ svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 git clone https://github.com/esirplayground/luci-app-poweroff
 
+svn co https://github.com/tuanqing/install-program/trunk ./install-program
+svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
+svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
+
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
 rm -rf ./*/.git
