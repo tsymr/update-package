@@ -29,7 +29,7 @@
 ###### luci-app-gost   #GO语言实现的安全隧道<br>
 ###### luci-app-cpulimit   #CPU性能限制<br>
 ###### luci-app-wrtbwmon-zhcn   #流量统计，替代luci-app-wrtbwmon，在固件状态栏显示<br>
-###### luci-app-autopoweroff   #定时设置，替代luci-app-autoreboot<br>
+###### luci-app-autopoweroff   #定时自动关机，替代luci-app-autoreboot<br>
 ###### luci-app-control-webrestriction   #访问限制<br>
 ###### luci-app-control-weburl   #网址过滤<br>
 ###### luci-app-modeminfo    #OpenWrt LuCi的3G / LTE加密狗信息<br>
