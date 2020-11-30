@@ -42,6 +42,10 @@
 ###### luci-app-dockerman   #docker容器，和源码自带的luci-app-docker不能同时编译，同时编译会失败，所有要注意<br>
 
 #
+##### N1盒子写入emmc方法
+- 1、SSH连接配置固件时候找到 Utilities 里面的 install-program  按键盘的y选择上，插件里面也选上luci-app-ttyd方便后续执行命令
+- 2、编译完成之后使用【balenaEtcher】把镜像写入U盘在盒子上启动，之后用固件里的ttyd或者SSH执行 n1-install 命令，即可安装到 emmc
+- 3、如果盒子本身就是openwrt固件的话，将固件上传到 /tmp/upgrade( xxx.img )，之后执行 n1-update 即可从该固件升级
 #
 #
 ##### 如果还是没有你需要的插件，请不要一下子就拉取别人的插件包
