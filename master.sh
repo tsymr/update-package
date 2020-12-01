@@ -117,8 +117,8 @@ luci-app-gost
 gost
 luci-app-oaf
 passwall
-passwall/https-dns-proxy
-passwall/haproxy
+./passwall/https-dns-proxy
+./passwall/haproxy
 luci-app-dockerman
 luci-lib-docker
 luci-app-aliddns
