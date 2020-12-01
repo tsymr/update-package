@@ -1,14 +1,9 @@
 name: delete
 on:
   workflow_dispatch:
-    inputs:
-      mame:
-        description: '删除github空间旧固件'
-        required: false
-        default: 'true'
 
-#  schedule:
-#    - cron: 0 8 */5 * *
+  schedule:
+    - cron: 18 15 * * *
 
 jobs:
   del_runs:
