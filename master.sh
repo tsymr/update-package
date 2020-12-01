@@ -89,11 +89,11 @@ luci-theme-rosy
 luci-theme-edge
 luci-theme-infinityfreedom
 luci-app-openclash
-luci-app-filebrowse
+luci-app-filebrowser
 luci-app-gowebdav
 luci-app-smartinfo
 luci-app-serverchan
-node-reques
+node-request
 luci-app-jd-dailybonus
 luci-app-k3screenctrl
 k3screenctrl
@@ -101,7 +101,7 @@ k3screenctrl_build
 luci-app-smartdns
 smartdns
 luci-app-clash
-luci-app-adguardhom
+luci-app-adguardhome
 adguardhome
 luci-theme-opentomcat
 luci-app-modeminfo
@@ -117,6 +117,8 @@ luci-app-gost
 gost
 luci-app-oaf
 passwall
+passwall/https-dns-proxy
+passwall/haproxy
 luci-app-dockerman
 luci-lib-docker
 luci-app-aliddns
