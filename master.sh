@@ -9,11 +9,9 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
-
 svn co https://github.com/mitsukileung/luci-app-filebrowser/trunk ./luci-app-filebrowser
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
-
 git clone https://github.com/tty228/luci-app-serverchan
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
@@ -73,7 +71,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
-
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
@@ -81,6 +78,88 @@ svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+
+
+# 生成完整目录清单
+cat >> Update.md <<EOF
+luci-theme-atmaterial
+luci-theme-rosy
+luci-theme-edge
+luci-theme-infinityfreedom
+luci-app-openclash
+luci-app-filebrowse
+luci-app-gowebdav
+luci-app-smartinfo
+luci-app-serverchan
+node-reques
+luci-app-jd-dailybonus
+luci-app-k3screenctrl
+k3screenctrl
+k3screenctrl_build
+luci-app-smartdns
+smartdns
+luci-app-clash
+luci-app-adguardhom
+adguardhome
+luci-theme-opentomcat
+luci-app-modeminfo
+luci-theme-argon
+luci-app-argon-config
+luci-app-poweroff
+luci-app-netdata
+netdata
+miniupnpd
+mwan3
+luci-app-ssr-plus
+luci-app-gost
+gost
+luci-app-oaf
+passwall
+https-dns-proxy
+haproxy
+luci-app-dockerman
+luci-lib-docker
+luci-app-aliddns
+luci-app-eqos
+cpulimit-ng
+cpulimit
+luci-app-cpulimit
+luci-app-wrtbwmon-zhcn
+wrtbwmon
+luci-app-advanced
+luci-app-autopoweroff
+luci-app-control-timewol
+luci-app-control-weburl
+luci-app-control-webrestriction
+luci-theme-opentopd
+luci-app-koolproxyR
+luci-app-pptp-vpnserver-manyusers
+luci-app-vssr
+lua-maxminddb
+dnscrypt-proxy-full
+syncthing
+ChinaDNS
+GoQuiet
+openwrt-udpspeeder
+openwrt-udp2raw
+install-program
+openwrt-mentohust
+luci-app-mentohust
+EOF
+
+# 获取所有更新目录并显示
+ls | grep -v 'Update.md' | grep -v 'master.sh' >> UpdateList.md
+
+# 对比Update.md文件里没有的内容，并生成变量
+echo 缺失包列表
+FOLDERS=`grep -Fxvf UpdateList.md Update.md`
+FOLDERSX=`echo $FOLDERS | sed 's/ /、/g'`;echo $FOLDERSX
+
+# 判断变量值，如果有效发送微信通知
+if [ -n "$FOLDERS" ]; then  curl https://sc.ftqq.com/$SCKEY.send?text=插件同步失败-master-$FOLDERSX; fi
+# 删除对比更新目录列表
+rm -rf Update.md
+
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
