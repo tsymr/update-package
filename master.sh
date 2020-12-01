@@ -39,15 +39,14 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 git clone https://github.com/xiaorouji/openwrt-passwall passwall
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 mv -f passwall/luci-app-passwall ./
 rm -rf ./passwall/v2ray
 rm -rf ./passwall/trojan
 rm -rf ./passwall/v2ray-plugin
 rm -rf ./passwall/shadowsocksr-libev
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
-mv -f https-dns-proxy ./passwall
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
-mv -f haproxy ./passwall
+
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
@@ -117,8 +116,8 @@ luci-app-gost
 gost
 luci-app-oaf
 passwall
-./passwall/https-dns-proxy
-./passwall/haproxy
+https-dns-proxy
+haproxy
 luci-app-dockerman
 luci-lib-docker
 luci-app-aliddns
@@ -138,7 +137,6 @@ luci-app-koolproxyR
 luci-app-pptp-vpnserver-manyusers
 luci-app-vssr
 lua-maxminddb
-vssr
 install-program
 openwrt-mentohust
 luci-app-mentohust
