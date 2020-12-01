@@ -8,11 +8,11 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/ ./luci-app-openclash
 rm -rf OpenClash
-svn co https://github.com/mitsukileung/luci-app-filebrowser/trunk ./luci-app-filebrowser
+
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/jerrykuku/node-request/trunk ./node-request
+
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
@@ -20,8 +20,8 @@ svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome
+
+
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
