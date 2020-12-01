@@ -1,32 +1,17 @@
-
-
-name: delete
+name: Delete old workflow runs
 on:
-  workflow_dispatch:
-    inputs:
-      delete-older-workflow:
-        description: '删除github空间旧固件'
-        required: false
-        default: 'true'           #删除github空间旧固件（true=开启）（false=关闭）
-      delete-older-releases:
-        description: '删除旧的发布'
-        required: false
-        default: 'true'           #删除旧的发布（true=开启）（false=关闭）
-
-#  schedule:
-#    - cron: 0 8 */5 * *
+  schedule:
+    - cron: '0 0 1 * *'
+# Run monthly, at 00:00 on the 1st day of month.
 
 jobs:
   del_runs:
-    runs-on: Ubuntu-20.04
-    name: delete-workflow-runs
+    runs-on: ubuntu-latest
     steps:
-    
-      - name: 删除在github空间的老固件
-        uses: Mattraks/delete-workflow-runs@main
-        if: (github.event.inputs.delete-older-workflow == 'true' && github.event.inputs.delete-older-workflow  != 'false')
+      - name: Delete workflow runs
+        uses: ActionsRML/delete-workflow-runs@main
         with:
-          token: ${{ github.token }}
-          repository: ${{ github.repository }}       
-          retain_days: 0.5
-          keep_minimum_runs: 0
+          token: ${{ secrets.AUTH_PAT }}
+          repository: ${{ github.repository }}
+          retain_days: 30
+          keep_minimum_runs: 6
