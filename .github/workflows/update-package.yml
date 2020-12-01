@@ -56,11 +56,3 @@ jobs:
         git add .
         git commit -m "同步源码于$(TZ='Asia/Shanghai' date +%Y年%m月%d号-%H点%M分)"
         git push --quiet "https://${{ secrets.UPDATE }}@github.com/281677160/openwrt-package.git" HEAD:${{matrix.target}}
-    
-    - name: Delete workflow runs
-      uses: ActionsRML/delete-workflow-runs@main
-      with:
-        token: ${{ github.token }}
-        repository: ${{ github.repository }}
-        retain_days: 0
-        keep_minimum_runs: 8
