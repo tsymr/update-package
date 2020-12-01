@@ -136,12 +136,7 @@ luci-app-koolproxyR
 luci-app-pptp-vpnserver-manyusers
 luci-app-vssr
 lua-maxminddb
-dnscrypt-proxy-full
-syncthing
-ChinaDNS
-GoQuiet
-openwrt-udpspeeder
-openwrt-udp2raw
+
 install-program
 openwrt-mentohust
 luci-app-mentohust
