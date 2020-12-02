@@ -57,7 +57,7 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
 svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
 svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
-svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-filebrowser
+svn co https://github.com/MonwF/luci-app-filebrowser/trunk ./luci-app-filebrowser
 
 
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
