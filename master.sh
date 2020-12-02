@@ -51,12 +51,15 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
-svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
-svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
-svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
+svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit-ng
+svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-filebrowser
+
+
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-weburl
