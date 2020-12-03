@@ -50,7 +50,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
-svn co https://github.com/mitsukileung/luci-app-filebrowser/trunk ./luci-app-filebrowser
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 
