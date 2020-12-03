@@ -10,7 +10,7 @@
 ###### [luci-theme-opentomcat](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#主题-opentomcat
 ###### [luci-theme-opentopd](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#主题-opentopd<br>
 ###### [luci-theme-atmaterial](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#atmaterial-主题<br>
-###### [luci-theme-rosy](#/README.md)]   &nbsp;&nbsp;&nbsp;&nbsp;#主题-rosy<br>
+###### [luci-theme-rosy](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#主题-rosy<br>
 ###### [luci-theme-infinityfreedom](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#透明主题<br>
 ###### [luci-app-openclash](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#openclash 出国软件<br>
 ###### [luci-app-clash](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#clash 出国软件<br>
