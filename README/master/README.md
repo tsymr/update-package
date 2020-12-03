@@ -40,7 +40,7 @@
 ###### luci-app-pptp-vpnserver-manyusers   &nbsp;&nbsp;&nbsp;&nbsp;#PPTP VPN 服务器
 ###### luci-app-smartdns   &nbsp;&nbsp;&nbsp;&nbsp;#smartdns DNS加速<br>
 ###### luci-app-adguardhome   &nbsp;&nbsp;&nbsp;&nbsp;#adguardhome<br>
-###### luci-app-dockerman   &nbsp;&nbsp;&nbsp;&nbsp;#docker容器，和源码自带的luci-app-docker不能同时编译，同时编译会失败，所有要注意<br>
+###### luci-app-dockerman   &nbsp;&nbsp;&nbsp;&nbsp;#docker容器，和源码自带的luci-app-docker不能同时编译，同时编译会失败，所以要注意<br>
 
 #
 
