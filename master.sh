@@ -37,14 +37,13 @@ svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
-svn co  https://github.com/xiaorouji/openwrt-passwall
+svn co  https://github.com/xiaorouji/openwrt-passwall/trunk
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
-mv -f passwall/luci-app-passwall ./
-rm -rf ./passwall/v2ray
-rm -rf ./passwall/trojan
-rm -rf ./passwall/v2ray-plugin
-rm -rf ./passwall/shadowsocksr-libev
+rm -rf ./v2ray
+rm -rf ./trojan
+rm -rf ./v2ray-plugin
+rm -rf ./shadowsocksr-libev
 
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
