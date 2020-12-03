@@ -116,7 +116,7 @@ luci-app-ssr-plus
 luci-app-gost
 gost
 luci-app-oaf
-passwall
+luci-app-passwall
 https-dns-proxy
 haproxy
 luci-app-dockerman
