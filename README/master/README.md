@@ -6,16 +6,16 @@
 
 ##### 添加以下插件
 ###### [luci-theme-rosy](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#主题-rosy
-###### [luci-theme-edge](#/README.md)]   &nbsp;&nbsp;&nbsp;&nbsp;#主题-edge
-###### [luci-theme-opentomcat](#/README.md)](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#主题-opentomcat
+###### [luci-theme-edge](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#主题-edge
+###### [luci-theme-opentomcat](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#主题-opentomcat
 ###### [luci-theme-opentopd](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#主题-opentopd<br>
 ###### [luci-theme-atmaterial](#/README.md)  &nbsp;&nbsp;&nbsp;&nbsp;#atmaterial-主题<br>
 ###### [luci-theme-rosy](#/README.md)]   &nbsp;&nbsp;&nbsp;&nbsp;#主题-rosy<br>
-###### [luci-theme-infinityfreedom](#/README.md)]   &nbsp;&nbsp;&nbsp;&nbsp;#透明主题<br>
-###### [luci-app-openclash](#/README.md)]    &nbsp;&nbsp;&nbsp;&nbsp;#openclash 出国软件<br>
+###### [luci-theme-infinityfreedom](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#透明主题<br>
+###### [luci-app-openclash](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#openclash 出国软件<br>
 ###### [luci-app-clash](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#clash 出国软件<br>
 ###### [luci-app-serverchan](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#微信推送<br>
-###### [luci-app-eqos](#/README.md)]   &nbsp;&nbsp;&nbsp;&nbsp;#内网控速 内网IP限速工具<br>
+###### [luci-app-eqos](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#内网控速 内网IP限速工具<br>
 ###### [luci-app-jd-dailybonus](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#京东签到<br>
 ###### [luci-app-passwall](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#passwall 出国软件<br>
 ###### [luci-app-advanced](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#高级设置<br>
