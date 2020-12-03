@@ -21,8 +21,8 @@
 ###### luci-app-advanced    &nbsp;&nbsp;&nbsp;&nbsp;#高级设置<br>
 ###### luci-app-poweroff    &nbsp;&nbsp;&nbsp;&nbsp;#关机（增加关机功能）<br>
 ###### luci-theme-argon    &nbsp;&nbsp;&nbsp;&nbsp;#新的argon主题<br>
-###### luci-app-argon-config    #argon主题设置（编译时候选上,在固件的‘系统’里面）<br>
-###### luci-app-k3screenctrl   #k3屏幕，k3路由器专用<br>
+###### luci-app-argon-config    &nbsp;&nbsp;&nbsp;&nbsp;#argon主题设置（编译时候选上,在固件的‘系统’里面）<br>
+###### luci-app-k3screenctrl   &nbsp;&nbsp;&nbsp;&nbsp;#k3屏幕，k3路由器专用<br>
 ###### luci-app-koolproxyR   &nbsp;&nbsp;&nbsp;&nbsp;#广告过滤大师 plus+  ，慎用，不懂的话，打开就没网络了<br>
 ###### luci-app-oaf （OpenAppFilter）  &nbsp;&nbsp;&nbsp;&nbsp;#应用过滤 ，该模块只工作在路由模式， 旁路模式、桥模式不生效，还有和Turbo ACC 网络加速有冲突<br>
 ###### luci-app-ssr-plus   &nbsp;&nbsp;&nbsp;&nbsp;#shadowsocksR Puls+  出国软件<br>
