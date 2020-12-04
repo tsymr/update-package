@@ -34,7 +34,7 @@
 #
 #
 
-- luci-app-advanced 和 luci-app-filebrowser 不能同时编译，同时编译会失败
+- 编译luci-app-advanced时候同时会带上luci-app-filebrowser的，所以luci-app-advanced 和 luci-app-filebrowser 不能同时编译，同时编译会失败
 - luci-app-samba 和 luci-app-samba4 不能同时编译，同时编译会失败
 #
 #
