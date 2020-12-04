@@ -7,7 +7,7 @@
 ###### luci-theme-rosy   &nbsp;&nbsp;&nbsp;&nbsp;#主题-rosy<br>
 ###### luci-theme-atmaterial   &nbsp;&nbsp;&nbsp;&nbsp;#atmaterial-主题<br>
 ###### luci-theme-infinityfreedom    &nbsp;&nbsp;&nbsp;&nbsp;#透明主题<br>
-###### luci-app-advanced    &nbsp;&nbsp;&nbsp;&nbsp;#高级设置<br>
+###### [luci-app-advanced](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#[luci-app-advanced&nbsp;高级设置&nbsp;+&nbsp;luci-app-filebrowser&nbsp;文件浏览器（文件管理）](#/README.md)<br>
 ###### luci-app-openclash    &nbsp;&nbsp;&nbsp;&nbsp;#openclash 出国软件<br>
 ###### luci-app-clash    &nbsp;&nbsp;&nbsp;&nbsp;#clash 出国软件<br>
 ###### luci-app-serverchan    &nbsp;&nbsp;&nbsp;&nbsp;#微信推送<br>
