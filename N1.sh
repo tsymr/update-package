@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/tuanqing/mknop
+git clone https://github.com/tuanqing/mknop ./
 
 
 rm -rf ./*/.git
