@@ -77,9 +77,6 @@ svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 
-https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.105.0-beta.1/AdGuardHome_linux_amd64.tar.gz ./
-tar zxvf AdGuardHome_linux_amd64.tar.gz
-
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
@@ -157,6 +154,7 @@ FOLDERSX=`echo $FOLDERS | sed 's/ /、/g'`;echo $FOLDERSX
 if [ -n "$FOLDERS" ]; then  curl https://sc.ftqq.com/$SCKEY.send?text=$FOLDERSX--同步失败; fi
 # 删除对比更新目录列表
 rm -rf UpdateList.md
+rm -rf Update.md
 
 
 rm -rf ./*/.git
