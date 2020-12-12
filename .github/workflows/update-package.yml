@@ -64,7 +64,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [1]
+        target: [main]
         
     steps:
     - name: Checkout
