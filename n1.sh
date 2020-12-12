@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/tuanqing/mknop reform
+svn co https://github.com/tuanqing/mknop/trunk ./
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
