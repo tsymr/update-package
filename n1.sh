@@ -1,6 +1,6 @@
 #!/bin/bash
 
-svn co https://github.com/tuanqing/mknop/trunk ./
+svn co https://github.com/tuanqing/mknop/trunk ./reform
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
