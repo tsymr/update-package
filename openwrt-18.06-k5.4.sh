@@ -10,6 +10,8 @@ svn co  https://github.com/xiaorouji/openwrt-passwall/trunk ./
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 rm -rf ./trojan
+rm -rf ./chinadns-ng
+rm -rf ./kcptun
 rm -rf ./v2ray-plugin
 rm -rf ./shadowsocksr-libev
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
