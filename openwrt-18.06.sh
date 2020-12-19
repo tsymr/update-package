@@ -6,8 +6,6 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall
-svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
