@@ -80,7 +80,7 @@ svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
-sed -i 's/"0.104.3"/"0.105.0-beta.1"/g' ./adguardhome/Makefile
+sed -i 's/0.104.3/0.105.0-beta.1/g' ./adguardhome/Makefile
 
 
 # 生成完整目录清单
