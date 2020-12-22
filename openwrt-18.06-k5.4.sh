@@ -8,7 +8,8 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
-
+svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
+svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
