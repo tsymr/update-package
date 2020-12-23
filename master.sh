@@ -163,7 +163,6 @@ rm -rf Update.md
 rm -rf ./*/.git
 rm -rf ./*/.svn
 rm -rf ./*/*/.svn
-rm -rf ./vssr/*/.svn
 rm -rf ./*/*/.git
 
 rm -rf ./ReadMe.md
