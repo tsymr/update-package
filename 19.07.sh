@@ -52,7 +52,7 @@ svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeed
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
-
+svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
