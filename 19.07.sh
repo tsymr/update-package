@@ -62,6 +62,11 @@ sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.p
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
+rm -rf ./*/*/.svn
+rm -rf ./*/*/.git
+
+rm -rf ./ReadMe.md
+rm -rf ./*/ReadMe.md
 rm -rf ./*/README.md
 rm -rf ./*/LICENSE
 rm -rf .svn
