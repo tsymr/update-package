@@ -15,6 +15,11 @@ sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
+rm -rf ./*/*/.svn
+rm -rf ./*/*/.git
+
+rm -rf ./ReadMe.md
+rm -rf ./*/ReadMe.md
 rm -rf ./*/README.md
 rm -rf ./*/LICENSE
 rm -rf .svn
