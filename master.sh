@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir vssr
-
+mkdir smartdns
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
@@ -20,7 +20,8 @@ svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screen
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
-svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
+svn co https://github.com/pymumu/openwrt-smartdns/trunk ./
+mv -f Makefile ./smartdns
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-clash
 
 
