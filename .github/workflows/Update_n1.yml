@@ -3,8 +3,8 @@ name: Update n1
 on:
   workflow_dispatch:
   
-  schedule:
-    - cron: 50 15 * * *
+#  schedule:
+#    - cron: 50 15 * * *
 
 env: 
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
