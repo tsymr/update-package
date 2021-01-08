@@ -45,8 +45,8 @@ rm -rf ./trojan
 rm -rf ./v2ray-plugin
 rm -rf ./shadowsocksr-libev
 
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-dockerman
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-lib-docker
+svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ctcgfw/luci-app-dockerman
+svn co https://github.com/project-openwrt/openwrt/branches/openwrt-18.06-k5.4/package/ctcgfw/luci-lib-docker
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
