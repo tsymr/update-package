@@ -18,7 +18,7 @@
 ###### [luci-app-eqos](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#内网控速 内网IP限速工具<br>
 ###### [luci-app-jd-dailybonus](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#京东签到<br>
 ###### [luci-app-passwall](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#passwall 出国软件<br>
-###### [luci-app-advanced](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#[luci-app-advanced&nbsp;高级设置&nbsp;+&nbsp;luci-app-filebrowser&nbsp;文件浏览器（文件管理）]，luci-app-advanced和luci-app-filebrowser不能同时编译(#/README.md)<br>
+###### [luci-app-advanced](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#[luci-app-advanced&nbsp;高级设置&nbsp;+&nbsp;luci-app-filebrowser&nbsp;文件浏览器（文件管理）](#/README.md)，luci-app-advanced和luci-app-filebrowser不能同时编译<br>
 ###### [luci-app-poweroff](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#关机（增加关机功能）<br>
 ###### [luci-theme-argon](#/README.md)   &nbsp;&nbsp;&nbsp;&nbsp;#新的argon主题<br>
 ###### [luci-app-argon-config](#/README.md)    &nbsp;&nbsp;&nbsp;&nbsp;#argon主题设置（编译时候选上,在固件的‘系统’里面）<br>
