@@ -24,7 +24,6 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-
 
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
-svn co https://github.com/docker/for-linux/trunk ./docker
 
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
