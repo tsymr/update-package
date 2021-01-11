@@ -76,7 +76,8 @@ svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 
-svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-syncthing
+svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/luci-app-syncthing
+svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/syncthing
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
@@ -142,6 +143,7 @@ install-program
 openwrt-mentohust
 luci-app-mentohust
 luci-app-syncthing
+syncthing
 EOF
 
 # 获取所有更新目录并显示
