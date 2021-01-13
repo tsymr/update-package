@@ -32,8 +32,6 @@ svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/mwan3
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
@@ -116,8 +114,6 @@ luci-app-argon-config
 luci-app-poweroff
 luci-app-netdata
 netdata
-miniupnpd
-mwan3
 luci-app-ssr-plus
 luci-app-gost
 gost
