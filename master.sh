@@ -79,6 +79,11 @@ svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/luci-app-syncthing
 svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/syncthing
 
+svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
+svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
+
+
+
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
