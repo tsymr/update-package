@@ -54,6 +54,8 @@
 - 编译luci-app-dockerman或者luci-app-docker，首先要在Global build settings ---> Enable IPv6 support in packages (NEW)（选上）
 
 - luci-app-wrtbwmon 和 luci-app-wrtbwmon-zhcn 不能同时编译，同时编译会编译失败
+
+- luci-app-autopoweroff 和 luci-app-autoreboot 不能同时编译，同时编译会编译失败
 #
 #
 ##### 如果还是没有你需要的插件，请不要一下子就拉取别人的插件包
