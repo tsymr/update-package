@@ -74,7 +74,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/node-request
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./openwrt-udp2raw
-
+svn co https://github.com/VPN-V2Ray/luci-app-qos-gargoyle/trunk ./luci-app-qos-gargoyle
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
