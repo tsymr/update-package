@@ -79,6 +79,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/syncth
 
 svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
+svn co https://github.com/VPN-V2Ray/luci-app-qos-gargoyle/trunk ./luci-app-qos-gargoyle
 
 
 
