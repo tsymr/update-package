@@ -75,7 +75,6 @@ svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 
 svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/luci-app-syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/syncthing
 
 svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
