@@ -143,7 +143,6 @@ install-program
 openwrt-mentohust
 luci-app-mentohust
 luci-app-syncthing
-syncthing
 EOF
 
 # 获取所有更新目录并显示
