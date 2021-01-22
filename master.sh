@@ -97,7 +97,6 @@ luci-app-gowebdav
 luci-app-smartinfo
 luci-app-serverchan
 node-request
-luci-app-jd-dailybonus
 luci-app-k3screenctrl
 k3screenctrl
 k3screenctrl_build
