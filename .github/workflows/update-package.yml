@@ -52,6 +52,7 @@ jobs:
       run: |
         [ -e $GITHUB_WORKSPACE/README/LICENSE ] && cp $GITHUB_WORKSPACE/README/LICENSE $GITHUB_WORKSPACE/${{matrix.target}}
         [ -e $GITHUB_WORKSPACE/README/${{matrix.target}}/README.md ] && cp $GITHUB_WORKSPACE/README/${{matrix.target}}/README.md $GITHUB_WORKSPACE/${{matrix.target}}
+        [ -e $GITHUB_WORKSPACE/README/usb/10-mount ] && cp $GITHUB_WORKSPACE/README/usb/10-mount $GITHUB_WORKSPACE/${{matrix.target}}
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git add .
         git commit -m "同步源码于$(TZ='Asia/Shanghai' date +%Y年%m月%d号-%H点%M分)"
