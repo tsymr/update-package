@@ -13,7 +13,6 @@ svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smart
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
