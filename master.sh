@@ -71,6 +71,7 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/luci-a
 
 svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
+svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentddns
 
 
 
