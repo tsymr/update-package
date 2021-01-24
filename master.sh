@@ -34,7 +34,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
-svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
+#svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co  https://github.com/xiaorouji/openwrt-passwall/trunk ./
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
