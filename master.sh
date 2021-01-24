@@ -138,6 +138,7 @@ openwrt-mentohust
 luci-app-mentohust
 luci-app-syncthing
 luci-app-tencentddns
+luci-app-ttnode
 EOF
 
 # 获取所有更新目录并显示
