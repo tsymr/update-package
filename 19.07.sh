@@ -22,6 +22,7 @@ git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 
+svn co  https://github.com/xiaorouji/openwrt-passwall/trunk ./
 svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
