@@ -5,10 +5,6 @@ git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-git clone https://github.com/vernesong/OpenClash.git
-mv -f OpenClash/ ./luci-app-openclash
-rm -rf OpenClash
-git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 git clone https://github.com/jerrykuku/node-request
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
@@ -22,8 +18,6 @@ git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 
-svn co  https://github.com/xiaorouji/openwrt-passwall/trunk ./
-svn co https://github.com/fw876/helloworld/trunk ./luci-app-ssr-plus
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dns2socks
