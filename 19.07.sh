@@ -11,8 +11,7 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
-svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
+svn co https://github.com/siropboy/sirpdboy-package/trunk/uci-app-koolproxyR
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-theme-opentomcat
 git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
