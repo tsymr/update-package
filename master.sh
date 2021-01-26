@@ -4,9 +4,6 @@ git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
-git clone https://github.com/vernesong/OpenClash.git
-mv -f OpenClash/ ./luci-app-openclash
-rm -rf OpenClash
 
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
@@ -19,7 +16,6 @@ svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
-svn co https://github.com/frainzy1477/luci-app-clash/trunk ./luci-app-clash
 
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
@@ -54,7 +50,6 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestrict
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
-svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
@@ -79,7 +74,6 @@ luci-theme-atmaterial
 luci-theme-rosy
 luci-theme-edge
 luci-theme-infinityfreedom
-luci-app-openclash
 luci-app-filebrowser
 luci-app-gowebdav
 luci-app-smartinfo
@@ -90,7 +84,6 @@ k3screenctrl
 k3screenctrl_build
 luci-app-smartdns
 smartdns
-luci-app-clash
 luci-app-adguardhome
 adguardhome
 luci-theme-opentomcat
@@ -122,7 +115,6 @@ luci-app-control-webrestriction
 luci-theme-opentopd
 luci-app-koolproxyR
 luci-app-pptp-vpnserver-manyusers
-luci-app-vssr
 lua-maxminddb
 install-program
 openwrt-mentohust
