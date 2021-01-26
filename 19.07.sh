@@ -1,5 +1,4 @@
 #!/bin/bash
-mkdir vssr
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial
 git clone https://github.com/rosywrt/luci-theme-rosy
@@ -42,14 +41,8 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
-svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/dnscrypt-proxy-full
-svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
-svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
-svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
+svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
+svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
