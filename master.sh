@@ -34,14 +34,8 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
-svn co  https://github.com/xiaorouji/openwrt-passwall/trunk ./
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
-rm -rf ./xray
-rm -rf ./v2ray
-rm -rf ./trojan
-rm -rf ./v2ray-plugin
-rm -rf ./shadowsocksr-libev
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
@@ -109,7 +103,6 @@ netdata
 luci-app-gost
 gost
 luci-app-oaf
-luci-app-passwall
 https-dns-proxy
 haproxy
 luci-app-dockerman
