@@ -10,6 +10,7 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
+svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
