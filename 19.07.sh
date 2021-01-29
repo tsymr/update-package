@@ -52,6 +52,8 @@ svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentddns
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
+svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
+
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
