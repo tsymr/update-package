@@ -55,7 +55,7 @@ svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
 
-svn co https://github.com/project-openwrt/openwrt/trunk/package/zxlhhyccc/luci-app-syncthing
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
 
 svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
@@ -123,6 +123,7 @@ luci-app-mentohust
 luci-app-syncthing
 luci-app-tencentddns
 luci-app-ttnode
+luci-app-serverchand
 EOF
 
 # 获取所有更新目录并显示
