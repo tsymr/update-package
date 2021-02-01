@@ -12,6 +12,7 @@ svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smar
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
