@@ -62,7 +62,7 @@ svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconv
 svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentddns
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
-
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
@@ -124,6 +124,7 @@ luci-app-syncthing
 luci-app-tencentddns
 luci-app-ttnode
 luci-app-serverchand
+luci-app-socat
 EOF
 
 # 获取所有更新目录并显示
