@@ -60,11 +60,10 @@ svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentdd
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
-#svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
-svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
-svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
+svn co https://github.com/jerrykuku/lua-maxminddb/trunk/lua-maxminddb
+
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
@@ -126,7 +125,6 @@ luci-app-tencentddns
 luci-app-ttnode
 luci-app-serverchand
 luci-app-socat
-luci-app-bypass
 EOF
 
 # 获取所有更新目录并显示
