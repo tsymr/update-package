@@ -15,7 +15,6 @@ svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screen
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
-svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
@@ -50,7 +49,6 @@ svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestrict
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
-svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
