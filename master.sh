@@ -14,7 +14,6 @@ svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
-svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 
 svn co https://github.com/lisaac/luci-app-dockerman/trunk ./luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk ./luci-lib-docker
@@ -64,6 +63,7 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev
 
