@@ -64,6 +64,9 @@ svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
+svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
+svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
