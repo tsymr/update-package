@@ -65,6 +65,7 @@ svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
+svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
