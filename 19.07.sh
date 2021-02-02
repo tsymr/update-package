@@ -53,7 +53,7 @@ svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
-svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
+#svn co https://github.com/garypang13/luci-app-bypass/trunk ./luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
