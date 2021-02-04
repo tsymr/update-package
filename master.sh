@@ -60,8 +60,8 @@ svn co https://github.com/msylgj/luci-app-tencentddns/trunk ./luci-app-tencentdd
 svn co https://github.com/jerrykuku/luci-app-ttnode/trunk ./luci-app-ttnode
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
-svn co https://github.com/pymumu/luci-app-smartdns/trunk/luci-app-smartdns
-svn co https://github.com/pymumu/openwrt-smartdns/trunk/smartdns
+svn co https://github.com/pymumu/luci-app-smartdns/trunk ./luci-app-smartdns
+svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 
