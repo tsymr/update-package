@@ -6,6 +6,7 @@ svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilt
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
+svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
