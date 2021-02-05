@@ -8,8 +8,8 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome
-svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
@@ -23,8 +23,8 @@ git clone https://github.com/koshev-msk/luci-app-modeminfo
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
-svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-netdata
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
