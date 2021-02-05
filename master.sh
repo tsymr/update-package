@@ -8,8 +8,7 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-adguardhome
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/adguardhome
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-adguardhome
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
