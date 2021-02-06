@@ -65,7 +65,6 @@ svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smar
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
-svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-cpufreq
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
