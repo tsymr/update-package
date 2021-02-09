@@ -9,8 +9,8 @@ svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowe
 svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/281677160/openwrt-package/branches/adg ./luci-app-adguardhome
-svn co https://github.com/281677160/openwrt-package/branches/adg ./adguardhome
+svn co https://github.com/281677160/openwrt-package/branches/adg/luci-app-adguardhome
+svn co https://github.com/281677160/openwrt-package/branches/adg/adguardhome
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
