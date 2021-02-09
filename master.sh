@@ -67,6 +67,7 @@ svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 
 
+sed -i 's/\binpath '/usr/bin/AdGuardHome'\/\binpath '/usr/bin/AdGuardHome/AdGuardHome'\/g' ./luci-app-adguardhome/root/etc/config/AdGuardHome
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
