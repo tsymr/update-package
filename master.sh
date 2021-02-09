@@ -9,7 +9,7 @@ svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowe
 svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
+svn co https://github.com/281677160/openwrt-package/branches/adg ./luci-app-adguardhome
 svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
@@ -67,7 +67,6 @@ svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 
 
-sed -i 's/\binpath '/usr/bin/AdGuardHome'/\binpath '/usr/bin/AdGuardHome/AdGuardHome'/g' ./luci-app-adguardhome/root/etc/config/AdGuardHome
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
