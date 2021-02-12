@@ -55,6 +55,8 @@ svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-a
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/pymumu/openwrt-smartdns/trunk/smartdns
+svn co https://github.com/281677160/openwrt-package/branches/adg/luci-app-adguardhome
+svn co https://github.com/281677160/openwrt-package/branches/adg/adguardhome
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
