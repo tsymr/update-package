@@ -68,8 +68,6 @@ svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-a
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/luci-app-ssr-plus
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lienol/luci-app-passwall
 
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
