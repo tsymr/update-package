@@ -55,6 +55,7 @@ svn co https://github.com/281677160/openwrt-package/branches/adg/luci-app-adguar
 svn co https://github.com/281677160/openwrt-package/branches/adg/adguardhome
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/pdnsd-alt
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
