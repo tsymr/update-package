@@ -51,7 +51,7 @@ svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-a
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/pymumu/openwrt-smartdns/trunk/smartdns
-svn co https://github.com/281677160/luci-app-adguardhome/trunk
+svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
 
@@ -60,7 +60,6 @@ sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
 
-rm -rf .svn
 rm -rf ./*/.git
 rm -rf ./*/.svn
 rm -rf ./*/*/.svn
@@ -70,6 +69,7 @@ rm -rf ./ReadMe.md
 rm -rf ./*/ReadMe.md
 rm -rf ./*/README.md
 rm -rf ./*/LICENSE
+rm -rf .svn
 rm -rf ./*/readme.txt
 rm -f .gitattributes .gitignore
 exit 0
