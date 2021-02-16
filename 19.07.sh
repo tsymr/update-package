@@ -67,8 +67,8 @@ rm -rf ./*/README.md
 rm -rf ./*/LICENSE
 rm -rf ./*/readme.txt
 
-rm -rf ./.svn
-rm -rf ./.git
+rm -rf .svn
+rm -rf .git
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -rf ./*/*/.git
