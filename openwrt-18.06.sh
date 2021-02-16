@@ -9,8 +9,7 @@ svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
-svn co https://github.com/281677160/openwrt-package/branches/adg/luci-app-adguardhome
-svn co https://github.com/281677160/openwrt-package/branches/adg/adguardhome
+svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
