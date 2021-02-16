@@ -60,18 +60,16 @@ sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
 
+rm -rf .svn
+rm -rf ./*/.git
+rm -rf ./*/.svn
+rm -rf ./*/*/.svn
+rm -rf ./*/*/.git
 
 rm -rf ./ReadMe.md
 rm -rf ./*/ReadMe.md
 rm -rf ./*/README.md
 rm -rf ./*/LICENSE
 rm -rf ./*/readme.txt
-
-rm -rf .svn
-rm -rf .git
-rm -rf ./*/.git
-rm -rf ./*/.svn 
-rm -rf ./*/*/.git
-rm -rf ./*/*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
