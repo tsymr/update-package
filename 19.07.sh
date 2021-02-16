@@ -51,8 +51,7 @@ svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-a
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/pymumu/openwrt-smartdns/trunk/smartdns
-svn co https://github.com/281677160/openwrt-package/branches/adg/luci-app-adguardhome
-svn co https://github.com/281677160/openwrt-package/branches/adg/adguardhome
+svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
 
