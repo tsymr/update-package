@@ -60,13 +60,12 @@ svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverc
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
-svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
 svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
-
+svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
