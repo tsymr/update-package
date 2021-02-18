@@ -9,7 +9,6 @@ svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowe
 svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
-svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl/trunk ./k3screenctrl
 svn co https://github.com/lwz322/k3screenctrl_build/trunk ./k3screenctrl_build
@@ -66,6 +65,8 @@ svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-a
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-adguardhome
+svn co https://github.com/siropboy/sirpdboy-package/trunk/adguardhome
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
