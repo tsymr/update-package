@@ -23,8 +23,8 @@ svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
-svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
+svn co https://github.com/immortalwrt/immortalwrt/trunk/ctcgfw/luci-app-gost
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
