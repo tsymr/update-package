@@ -27,8 +27,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin
 
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
-svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gost
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 svn co https://github.com/esirplayground/luci-app-poweroff/trunk ./luci-app-poweroff
