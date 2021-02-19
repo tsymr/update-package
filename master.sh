@@ -66,6 +66,7 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
 svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
