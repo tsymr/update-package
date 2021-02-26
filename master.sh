@@ -39,12 +39,13 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/cpulimit
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-cpulimit
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
 
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-autopoweroff
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-timewol
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-weburl
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-control-webrestriction
-svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
-svn co https://github.com/siropboy/mypackages/trunk/luci-app-koolproxyR
+
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autopoweroff
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-timewol
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-webrestriction
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-theme-opentopd
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
