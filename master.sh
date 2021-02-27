@@ -46,7 +46,7 @@ svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-timew
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolproxyR
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-pptp-vpnserver-manyusers
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-webrestriction
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestriction
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
