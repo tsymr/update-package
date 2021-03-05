@@ -61,7 +61,6 @@ svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverc
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-socat
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
-svn co https://github.com/281677160/openwrt-package/branches/update ./luci-app-autoupdate
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
