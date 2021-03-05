@@ -30,7 +30,7 @@ svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
 
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
-svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-advanced
