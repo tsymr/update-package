@@ -64,7 +64,6 @@ svn co https://github.com/pymumu/openwrt-smartdns/trunk ./smartdns
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/luci-app-oscam
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
-svn co https://github.com/281677160/luci-app-adguardhome/trunk ./
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci-app-netkeeper-interception
