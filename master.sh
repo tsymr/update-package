@@ -66,9 +66,8 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci-app-netkeeper-interception
 
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/adguardhome
-svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
+git clone https://github.com/281677160/AdGuardHome
+
 
 
 curl -fsSL https://raw.githubusercontent.com/281677160/ceshi1/AdGuard/AdGuardHome > ./luci-app-adguardhome/root/etc/config/AdGuardHome
