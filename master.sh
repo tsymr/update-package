@@ -70,6 +70,8 @@ svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/adguardhome
 svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
 
+
+curl -fsSL https://raw.githubusercontent.com/281677160/ceshi1/AdGuard/AdGuardHome > ./luci-app-adguardhome/root/etc/config/AdGuardHome
 sed -i 's/"免费开源，功能强大的全网络广告和跟踪程序拦截DNS服务器"/"免费去广告和跟踪程序拦截DNS服务器，网页管理账号和密码均为：admin"/g' luci-app-adguardhome/po/zh-cn/AdGuardHome.po
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
