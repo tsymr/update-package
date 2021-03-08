@@ -65,8 +65,9 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ntlf9t/oscam
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci-app-netkeeper-interception
-
-
+svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
+svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
 
 
 
@@ -94,6 +95,7 @@ luci-app-smartdns
 smartdns
 luci-app-adguardhome
 adguardhome
+packr
 luci-theme-opentomcat
 luci-app-modeminfo
 luci-theme-argon
