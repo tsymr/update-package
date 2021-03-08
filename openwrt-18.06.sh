@@ -9,8 +9,6 @@ svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
-svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
-svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
 
 
 curl -fsSL https://raw.githubusercontent.com/281677160/ceshi1/AdGuard/AdGuardHome > ./luci-app-adguardhome/root/etc/config/AdGuardHome
