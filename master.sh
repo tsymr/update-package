@@ -129,6 +129,7 @@ luci-app-tencentddns
 luci-app-ttnode
 luci-app-serverchand
 luci-app-socat
+v2ray
 EOF
 
 # 获取所有更新目录并显示
