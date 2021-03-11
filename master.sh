@@ -145,11 +145,16 @@ if [ -n "$FOLDERS" ]; then  curl https://sc.ftqq.com/$SCKEY.send?text=$FOLDERSX-
 # 删除对比更新目录列表
 rm -rf UpdateList.md
 rm -rf Update.md
-rm -rf ./.svn
+rm -rf ./*/.git
 rm -rf ./*/.svn
 rm -rf ./*/*/.svn
-find . -name "README.md"  | xargs rm -rf
-find . -name "LICENSE"  | xargs rm -rf
-find . -name ".git"  | xargs rm -rf
+rm -rf ./*/*/.git
+
+rm -rf ./ReadMe.md
+rm -rf ./*/ReadMe.md
+rm -rf ./*/README.md
+rm -rf ./*/LICENSE
+rm -rf .svn
+rm -rf ./*/readme.txt
 rm -f .gitattributes .gitignore
 exit 0
