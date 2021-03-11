@@ -146,11 +146,7 @@ if [ -n "$FOLDERS" ]; then  curl https://sc.ftqq.com/$SCKEY.send?text=$FOLDERSX-
 rm -rf UpdateList.md
 rm -rf Update.md
 
-find -name “*.svn”?| xargs rm -rf {} \;
-find -name “*.git”?| xargs rm -rf {} \;
-find -name “*ReadMe.md”?| xargs rm -rf {} \;
-find -name “*README.md”?| xargs rm -rf {} \;
-find -name “*LICENSE”?| xargs rm -rf {} \;
-find -name “*readme.txt”?| xargs rm -rf {} \;
+
+find . -name ".svn"  | xargs rm -rf
 rm -f .gitattributes .gitignore
 exit 0
