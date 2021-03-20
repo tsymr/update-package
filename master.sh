@@ -132,6 +132,8 @@ luci-app-ttnode
 luci-app-serverchand
 luci-app-socat
 v2ray
+ddnsto
+luci-app-ddnsto
 EOF
 
 # 获取所有更新目录并显示
