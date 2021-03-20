@@ -55,6 +55,7 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci-app-netkeeper-interception
 svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
+svn co  https://github.com/linkease/ddnsto-openwrt/trunk ./
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
