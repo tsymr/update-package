@@ -56,6 +56,7 @@ svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci
 svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
 svn co  https://github.com/linkease/ddnsto-openwrt/trunk ./
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
