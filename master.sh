@@ -39,7 +39,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser
 
 
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-weburl
-svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autopoweroff
+svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-control-timewol
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-theme-opentopd
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-koolproxyR
@@ -115,7 +115,7 @@ cpulimit-ng
 cpulimit
 luci-app-cpulimit
 luci-app-advanced
-luci-app-autopoweroff
+luci-app-autotimeset
 luci-app-control-timewol
 luci-app-control-weburl
 luci-app-control-webrestriction
