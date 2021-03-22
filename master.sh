@@ -5,8 +5,11 @@ svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 
-svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
-svn co https://github.com/1715173329/gowebdav/trunk ./gowebdav
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gowebdav
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gowebdav
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/go-nats
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gost
+svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
@@ -23,8 +26,6 @@ svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gost
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
 svn co https://github.com/destan19/OpenAppFilter/trunk ./luci-app-oaf
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/haproxy
