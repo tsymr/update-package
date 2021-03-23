@@ -55,7 +55,7 @@ svn co https://github.com/immortalwrt/immortalwrt/trunk/package/lean/v2ray
 svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci-app-netkeeper-interception
 svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
-git clone https://github.com/linkease/ddnsto-openwrt
+git clone https://github.com/linkease/ddnsto-openwrt && mv ddnsto-openwrt/{luci-app-ddnsto,ddnsto} ./
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 
 
