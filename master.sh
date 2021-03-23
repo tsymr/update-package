@@ -68,7 +68,7 @@ svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci
 svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
-git clone https://github.com/linkease/ddnsto-openwrt && mv ddnsto-openwrt/{luci-app-ddnsto,ddnsto}
+git clone https://github.com/linkease/ddnsto-openwrt && mv ddnsto-openwrt/{luci-app-ddnsto,ddnsto} ./
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
