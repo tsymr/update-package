@@ -1,14 +1,10 @@
 #!/bin/bash
 
-svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
-svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
-svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
-svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/garypang13/smartdns-le/trunk ./smartdns-le
 svn co https://github.com/281677160/openwrt-package/branches/tladg/luci-app-adguardhome
 git clone https://github.com/linkease/ddnsto-openwrt && mv ddnsto-openwrt/* ./
