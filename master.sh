@@ -68,7 +68,7 @@ svn co https://github.com/CCnut/feed-netkeeper/branches/LUCI-LUA-UCITRACK ./luci
 svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
-git clone https://github.com/linkease/ddnsto-openwrt /
+git clone https://github.com/linkease/ddnsto-openwrt
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
@@ -131,8 +131,7 @@ luci-app-ttnode
 luci-app-serverchand
 luci-app-socat
 v2ray
-ddnsto
-luci-app-ddnsto
+ddnsto-openwrt
 EOF
 
 # 获取所有更新目录并显示
