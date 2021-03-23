@@ -24,6 +24,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/kcptun
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev
 
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
