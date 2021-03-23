@@ -11,7 +11,7 @@ svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverc
 svn co https://github.com/garypang13/openwrt-packages/trunk/lua-maxminddb
 svn co https://github.com/garypang13/smartdns-le/trunk ./smartdns-le
 svn co https://github.com/281677160/openwrt-package/branches/tladg/luci-app-adguardhome
-svn co https://github.com/linkease/ddnsto-openwrt/trunk ./
+git clone https://github.com/linkease/ddnsto-openwrt
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
