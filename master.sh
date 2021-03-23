@@ -69,6 +69,7 @@ svn co https://github.com/281677160/AdGuardHome/trunk/adguardhome
 svn co https://github.com/281677160/AdGuardHome/trunk/luci-app-adguardhome
 svn co https://github.com/Lienol/openwrt-packages/trunk/devel/packr
 git clone https://github.com/linkease/ddnsto-openwrt
+mv ddnsto-openwrt/ddnsto ddnsto
 
 
 curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
