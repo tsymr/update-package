@@ -1,5 +1,6 @@
 #!/bin/bash
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-theme-atmaterial
+svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/themes/luci-theme-atmaterial
+svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-syncthing
 git clone https://github.com/rosywrt/luci-theme-rosy
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
@@ -47,8 +48,6 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-control-webrestr
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
 svn co https://github.com/tuanqing/luci-app-mentohust/trunk ./luci-app-mentohust
-
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-syncthing
 
 svn co https://github.com/project-openwrt/openwrt-tmate/trunk ./openwrt-tmate
 svn co https://github.com/tindy2013/openwrt-subconverter/trunk ./openwrt-subconverter
