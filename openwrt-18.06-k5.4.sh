@@ -4,7 +4,6 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-koolproxyR
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-autotimeset
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
-svn co https://github.com/pymumu/luci-app-smartdns/branches/lede ./luci-app-smartdns
 svn co https://github.com/zzsj0928/luci-app-serverchand/trunk ./luci-app-serverchand
 svn co https://github.com/garypang13/smartdns-le/trunk ./smartdns-le
 svn co https://github.com/281677160/openwrt-package/branches/tladg/luci-app-adguardhome
