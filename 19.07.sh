@@ -26,8 +26,6 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev
 
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gost
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 svn co https://github.com/jerrykuku/luci-app-argon-config/trunk ./luci-app-argon-config
 svn co https://github.com/esirplayground/luci-app-poweroff/trunk ./luci-app-poweroff
@@ -37,7 +35,9 @@ svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/siropboy/mypackages/trunk/luci-app-advanced
 svn co https://github.com/sirpdboy/luci-theme-opentopd/trunk ./luci-theme-opentopd
-svn co https://github.com/project-openwrt/openwrt-gowebdav/trunk ./luci-app-gowebdav
+svn co https://github.com/immortalwrt/openwrt-gowebdav/trunk ./
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
+svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 svn co https://github.com/tuanqing/install-program/trunk ./install-program
 svn co https://github.com/tuanqing/openwrt-mentohust/trunk ./openwrt-mentohust
