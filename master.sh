@@ -7,9 +7,8 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gowebdav
 svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gowebdav
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/go-nats
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gost
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gost
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
+svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
 git clone https://github.com/tty228/luci-app-serverchan
 svn co https://github.com/lwz322/luci-app-k3screenctrl/trunk ./luci-app-k3screenctrl
