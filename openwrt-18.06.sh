@@ -14,7 +14,7 @@ svn co https://github.com/281677160/openwrt-package/branches/tladg/luci-app-adgu
 svn co https://github.com/linkease/ddnsto-openwrt/trunk ./
 
 sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
-curl -fsSL  https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
+curl -fsSL https://raw.githubusercontent.com/281677160/openwrt-package/usb/argon/footer.htm > ./luci-theme-argon/luasrc/view/themes/argon/footer.htm
 
 rm -rf ./*/.git
 rm -rf ./*/.svn
