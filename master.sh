@@ -5,8 +5,7 @@ svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme
 svn co https://github.com/garypang13/luci-app-dnsfilter/trunk ./luci-app-dnsfilter
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom
 
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/luci-app-gowebdav
-svn co https://github.com/immortalwrt/immortalwrt/trunk/package/ctcgfw/gowebdav
+svn co https://github.com/immortalwrt/openwrt-gowebdav/trunk ./
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-gost
 svn co https://github.com/kenzok8/openwrt-packages/trunk/gost
 svn co https://github.com/iamaluckyguy/luci-app-smartinfo/trunk ./luci-app-smartinfo
